@@ -1,0 +1,30 @@
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.list > .listIsEmpty {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  flex: 1;
+}
+
+.listIsEmpty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 64px 24px;
+}
+
+.listIsEmpty span {
+  color: var(--gray-300);
+}
+
+.listIsEmpty > span {
+  font-weight: bold;
+}
+
+.listIsEmpty span:last-child {
+  font-weight: normal;
+}

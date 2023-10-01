@@ -1,0 +1,53 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cards .card {
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  gap: 1rem;
+}
+
+.cards .card div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  gap: 1rem;
+}
+
+.cards .card button {
+  background: none;
+  border: none;
+}
+
+.cards .card button:focus {
+  box-shadow: none;
+}
+
+.cards .card button svg {
+  right: 0;
+  cursor: pointer;
+  color: var(--gray-300);
+}
+
+.cards .card button svg:hover {
+  color: var(--red-300);
+}
+
+.cards .isFinished {
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-500);
+}
+
+.cards .isFinished div div {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}

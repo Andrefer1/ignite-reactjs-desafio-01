@@ -1,0 +1,17 @@
+.title {
+  display: flex;
+}
+
+.title div {
+  font-weight: bold;
+  font-size: 0.875rem;
+  margin-right: 10px;
+}
+
+.title .primary {
+  color: var(--blue-300);
+}
+
+.title .secondary {
+  color: var(--purple-300);
+}

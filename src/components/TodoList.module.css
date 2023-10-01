@@ -1,0 +1,22 @@
+.tasks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5.6875rem 0.635rem;
+}
+
+.tasks div {
+  max-width: 46rem;
+}
+
+.tasks .titles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.tasks > div:last-child {
+  width: 100%;
+}

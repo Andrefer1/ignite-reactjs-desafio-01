@@ -1,0 +1,8 @@
+.taskCounter {
+  color: var(--gray-200);
+  background: var(--gray-400);
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
